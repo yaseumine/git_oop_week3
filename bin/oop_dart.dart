@@ -1,11 +1,11 @@
 class Mobil {
-  String Merk;
-  int Tahun;
+  String merk;
+  int tahun;
 
-  Mobil(this.Merk, this.Tahun);
+  Mobil(this.merk, this.tahun);
 
   void info() {
-    print("Mobil : $Merk Tahun : $Tahun");
+    print("Mobil : $merk Tahun : $tahun");
   }
 }
 
